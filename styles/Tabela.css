@@ -1,0 +1,183 @@
+.frame2
+{
+position:absolute;
+background-color:#ffffff;
+height:832px;
+width:1280px;
+padding:0px;
+}
+.rectangle103 {
+background-color: #d9d9d9;
+height: 401px;
+width: 1176px;
+border-radius: 48px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.rectangle104 {
+background-color: #b8b8b8;
+height: 94px;
+width: 1176px;
+border-radius: 69px;
+position: absolute;
+left: 50%;
+top: 215px; /* Você pode ajustar esta posição vertical conforme necessário */
+transform: translateX(-50%); /* Centraliza horizontalmente */
+}
+
+.rectangle98
+{
+background: linear-gradient(to right, #ffffff, #214689);
+height:130px;
+width:1900px;
+position:absolute;
+top:0px;
+left:0px;
+}
+.rectangle99
+{
+background-color:#2557af;
+height:33px;
+width:122px;
+border-radius:7px;
+top:46px;
+left:549px;
+position:absolute;
+}
+.rectangle100
+{
+background-color:#ff2424;
+height:33px;
+width:90px;
+border-radius:7px;
+top:46px;
+left:440px;
+position:absolute;
+}
+.rectangle101
+{
+background-color:#2557af;
+height:33px;
+width:263px;
+border-radius:7px;
+top:46px;
+left:690px;
+position:absolute;
+}
+.rectangle102
+{
+background-color:#2557af;
+height:33px;
+width:280px;
+border-radius:7px;
+top:46px;
+left:972px;
+position:absolute;
+}
+.formasdeingresso-militaresdecarreira
+{
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+font-size:12px;
+font-family:Inter;
+left:697px;
+top:55px;
+width:250px;
+height:15px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.notíciasdehoje
+{
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+font-size:12px;
+font-family:Inter;
+left:561px;
+top:54px;
+width:96px;
+height:15px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.voltar
+{
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+font-size:12px;
+font-family:Inter;
+left:466px;
+top:54px;
+width:37px;
+height:15px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.formasdeingresso-militarestemporários
+{
+color:#ffffff;
+text-align:left;
+vertical-align:text-top;
+font-size:12px;
+font-family:Inter;
+left:980px;
+top:55px;
+width:257px;
+height:15px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.image19
+{
+height:103px;
+width:144px;
+left:21px;
+top:11px;
+position:absolute;
+}
+.inscrições
+{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:40px;
+font-family:Inter;
+left:341px;
+top:238px;
+width:208px;
+height:48px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
+.data
+{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:40px;
+font-family:Inter;
+left:980px;
+top:238px;
+width:92px;
+height:48px;
+position:absolute;
+line-height:auto;
+border-style:hidden;
+outline:none;
+}
