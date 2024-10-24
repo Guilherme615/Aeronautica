@@ -3204,7 +3204,7 @@
     allowList: DefaultAllowlist,
     animation: true,
     boundary: 'clippingParents',
-    container: false,
+    : false,
     customClass: '',
     delay: 0,
     fallbackPlacements: ['top', 'right', 'bottom', 'left'],
@@ -3223,7 +3223,7 @@
     allowList: 'object',
     animation: 'boolean',
     boundary: '(string|element)',
-    container: '(string|element|boolean)',
+    : '(string|element|boolean)',
     customClass: '(string|function)',
     delay: '(number|object)',
     fallbackPlacements: 'array',
@@ -3327,10 +3327,10 @@
       const tip = this._getTipElement();
       this._element.setAttribute('aria-describedby', tip.getAttribute('id'));
       const {
-        container
+        
       } = this._config;
       if (!this._element.ownerDocument.documentElement.contains(this.tip)) {
-        container.append(tip);
+        .append(tip);
         EventHandler.trigger(this._element, this.constructor.eventName(EVENT_INSERTED));
       }
       this._popper = this._createPopper(tip);
@@ -3609,7 +3609,7 @@
       return config;
     }
     _configAfterMerge(config) {
-      config.container = config.container === false ? document.body : getElement(config.container);
+      config. = config. === false ? document.body : getElement(config.);
       if (typeof config.delay === 'number') {
         config.delay = {
           show: config.delay,
@@ -3807,7 +3807,7 @@
     constructor(element, config) {
       super(element, config);
 
-      // this._element is the observablesContainer and config.target the menu links wrapper
+      // this._element is the observables and config.target the menu links wrapper
       this._targetLinks = new Map();
       this._observableSections = new Map();
       this._rootElement = getComputedStyle(this._element).overflowY === 'visible' ? null : this._element;

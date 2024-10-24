@@ -44,9 +44,9 @@ position:absolute;
 .rectangle80
 {
 background-color:#6b6b6b;
-height:1px;
+height:80px;
 width:199px;
-top:246px;
+top:167px;
 left:39px;
 position:absolute;
 }
@@ -335,8 +335,7 @@ position:absolute;
 {
 height:24px;
 width:30px;
-transform:rotate(180deg);
-left:319px;
+left:300px;
 top:425px;
 position:absolute;
 }

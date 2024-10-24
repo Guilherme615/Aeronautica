@@ -1,0 +1,103 @@
+/* Estilos para telas menores que 768px (smartphones) */
+@media (max-width: 768px) {
+body {
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img {
+    flex: 1 1 200px; /* A imagem se ajustará ao espaço disponível */
+}
+
+}
+
+/* Estilos para telas maiores que 768px (tablets e desktops) */
+@media (min-width: 769px) {
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS para a barra de navegação */
+.navbar {
+    background: #214689; /* Adiciona o gradiente */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 110px; /* Ajuste a altura da navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1; /* Permite que a lista ocupe o espaço disponível */
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Ajuste o espaço ao redor do texto */
+    text-decoration: none;
+    font-size: 18px; /* Ajuste o tamanho da fonte */
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar img {
+    height: 110px; /* Ajuste a altura da imagem para combinar com a navbar */
+}
+
+h4{
+    color: #fff;
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: -145px;
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+    margin-left: -385px;
+    margin-top: 75px;
+}
+
+.container {
+width: 100%; /* Ocupa todo o espaço disponível */
+}
+
+a{
+    color: #000;
+    font-size: 14px;
+}
