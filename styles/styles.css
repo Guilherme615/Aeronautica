@@ -290,7 +290,7 @@ outline:none;
 
 /* CSS para a barra de navegação */
 .navbar {
-    background: linear-gradient(to right, #ffffff, #214689); /* Adiciona o gradiente */
+    background: linear-gradient(to right, #4e81df, #214689); /* Adiciona o gradiente */
     overflow: hidden;
     display: flex;
     justify-content: space-between;
